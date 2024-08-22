@@ -5,7 +5,8 @@ Project Overview
 This project is a Customer Relationship Management (CRM) web application built using Django. The application allows users to manage customer information through a simple and intuitive interface. It includes features like user authentication (registration, login, logout), as well as full CRUD (Create, Read, Update, Delete) operations for customer records.
 
 Purpose
-The purpose of this project is to create a functional CRM system that can be used to manage customer relationships effectively. The application is designed to be lightweight yet powerful, providing all the necessary tools for handling customer data in a secure and organized manner.
+The purpose of this project is to create a functional CRM system that can be used to manage customer relationships effectively. 
+The application is designed to be lightweight yet powerful, providing all the necessary tools for handling customer data in a secure and organized manner.
 
 Key Features
 User Authentication: Secure registration, login, and logout functionalities.
@@ -32,19 +33,14 @@ Installation Steps
 Clone the repository:
 
 bash
-Copy code
-git clone https://github.com/yourusername/crm-django.git
-cd crm-django
 Create and activate a virtual environment:
 
 bash
-Copy code
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 Install the required Python packages:
 
 bash
-Copy code
 pip install -r requirements.txt
 Configure MySQL:
 
@@ -53,12 +49,10 @@ Create a database and update the DATABASES settings in settings.py with your MyS
 Apply migrations:
 
 bash
-Copy code
 python manage.py migrate
 Run the development server:
 
 bash
-Copy code
 python manage.py runserver
 Access the application:
 Open your browser and navigate to http://127.0.0.1:8000/
